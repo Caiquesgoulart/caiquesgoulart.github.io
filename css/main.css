@@ -1,0 +1,267 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url("../imgs/sl.png");
+}
+h2 {
+    font-size: 25px;
+    float: left;
+    color: black;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+#h2a {
+    color: black;
+    margin-right: 15px;
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#h2b {
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 10px;
+}
+#h2b2 {
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 10px;
+}
+#h2c {
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 10px;
+} /* Não editar, não terá interação */
+#h3b {
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 10px;
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+ul {
+    padding-left: 15px !important;
+    margin: 0px;
+    float: left;
+    font-size: 25px;
+}
+li {
+    padding: 0px !important;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.inicio-principal {
+    width: 100%;
+    background-image: url("../imgs/bf.png");
+    border-bottom: 2px solid gray;
+}
+main {
+    margin: 0 auto;
+    width: 70%;
+    position: relative;
+}
+.header-1 {
+    display: flex;
+}
+.logo {
+    background-image: url("../imgs/bf.png");
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.redes ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    margin-top: 15px;
+    border-radius: 100px;
+}
+.redes {
+    width: 100%;
+}
+.redes ul {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;;
+    float: right;
+}
+.header-2 {
+    background-color: black;
+    width: 980px;
+    margin: 0 auto;
+}
+.inicio-urls {
+    border-bottom: 2px solid gray;
+    margin: 0 auto;
+}
+.inicio ul li {
+    color: white; 
+    text-decoration: none !important;
+    display: inline-block;
+}
+.inicio ul li:hover {
+    border-bottom: 1px solid lightgray;
+    height: 35px;   
+}
+.inicio ul li a:hover {
+    color: lightgray;
+}
+.inicio ul li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 40px;
+    text-decoration: none !important; 
+    color: gray;
+}
+.inicio {
+    position: relative;
+    top: 48px;
+}
+.col-100 {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    background-color: white;
+}
+.meft {
+    padding: 12px;
+    padding-bottom: 12px;
+    position: static;
+    margin: 0 auto;
+    width: 70%;
+    background-image: url("../imgs/cinza.png");
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+#meab {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#meab2 {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.content0 {
+    background-image: url("../imgs/bf.png");
+    margin: 0 auto;
+    height: 50px; 
+    width: 70%;
+    position: static;
+    display: flex;
+    padding: 12px;
+    padding-bottom: 12px;
+    
+}
+.content {
+    padding: 12px;
+    padding-bottom: 12px;
+    position: static;
+    margin: 0 auto;
+    width: 70%;
+    background-image: url("../imgs/cinza.png");
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+.skill {
+    font-size: 25px;
+}
+.content ul li {
+    font-size: 20px;
+    position: relative;
+    border: 5px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    box-shadow: 0px 0px 5px 5px lightgray;
+    list-style-type:none;
+    border-radius: 5px;
+    float: left;
+    margin-left: 30px;
+    top: 20px;
+}
+.content_cv{
+    padding: 12px;
+    padding-bottom: 12px;
+    position: static;
+    margin: 0 auto;
+    width: 70%;
+    background-image: url("../imgs/cinza.png");
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+.content_cv ul li{
+    font-size: 20px;
+    position: relative;
+    border: 5px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px lightgray;
+    list-style-type:none;
+    float: left;
+    margin-left: 50px;
+    top: 20px;
+    
+}
+.dow ul li:hover{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    box-shadow: 0px 0px 2px 2px gray;
+    list-style-type:none;
+    border-radius: 5px;
+    float: left;
+    margin-left: 50px;
+    top: 20px;
+}
+#dow {
+    border: 5px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin: 5px;
+}
+#con {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    float: left;
+}
+.con ul li{
+    font-size: 20px;
+}
+#fade {
+    display: flex;
+    color: gray;
+}
+.inicio-principal-2 {
+    width: 100%;
+    background-image: url("../imgs/bf.png");
+    position: relative;
+}
+.barra {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: gray;
+    margin: 0 auto;
+    height: 30px;
+}
+.inicio-principal-3 {
+    width: 100%;
+    background-image: url("../imgs/cinza.png");
+    position: inherit;
+    height: 30px;
+    margin: 0 auto;
+}
+
